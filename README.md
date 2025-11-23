@@ -4,6 +4,9 @@ Status Live
 
 Live URL :https://rabbit-gray.vercel.app/
 
+<img width="1326" height="825" alt="image" src="https://github.com/user-attachments/assets/3d8468bc-3e3f-4b9b-9f5a-15c8526a2808" />
+
+
 📝 Description
 
 A full-stack e-commerce application built using the MERN stack (MongoDB, Express, React, Node.js). It provides a complete shopping experience, including product browsing, user authentication, a shopping cart, and a simulated checkout process.
