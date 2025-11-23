@@ -1,11 +1,11 @@
 {
-  "name": "backend",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "dev": "nodemon backend/server.js",
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
     "seed": "node seeder.js"
     
   },
