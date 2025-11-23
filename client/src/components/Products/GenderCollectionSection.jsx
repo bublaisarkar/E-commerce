@@ -1,6 +1,6 @@
 import React from "react";
-import mensCollectionImage from "../../assets/mens-collection.webp";
-import womensCollectionImage from "../../assets/womens-collection.webp";
+import mensCollectionImage from "../../assets/mens-clothing.jpg";
+import womensCollectionImage from "../../assets/womens-clothing3.jpg";
 import { Link } from 'react-router-dom';
 
 const GenderCollectionSection = () => {
