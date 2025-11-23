@@ -85,6 +85,7 @@ const Login = () => {
               className="w-full p-3 border border-gray-300 rounded focus:ring-black focus:border-black"
               placeholder="Enter your password"
               required
+              autocomplete="current-password"
             />
           </div>
           <button
