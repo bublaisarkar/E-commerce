@@ -19,16 +19,24 @@ dotenv.config();
 const app = express();
 // 2. Add body parser middleware before CORS
 app.use(express.json());
-// 💡 FIX: Added urlencoded body parser for full compatibility
 app.use(express.urlencoded({ extended: true }));
-app.use(cors());
+
+// --- CORS FIX ---
+const allowedOrigin = 'https://rabbit-gray.vercel.app';
+app.use(cors({ 
+    origin: allowedOrigin, 
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+}));
+// --- END CORS FIX ---
 
 const PORT = process.env.PORT || 3000;
 // Connect to Database
 connectDB();
 
 app.get("/", (req, res) => {
-  res.send("WELCOME TO RABBIT API!");
+  res.send("WELCOME TO RABBIT API!");
 });
 
 // API Routes
@@ -46,5 +54,5 @@ app.use("/api/admin/products", productAdminRoutes);
 app.use("/api/admin/orders", adminOrderRoutes);
 
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on http://localhost:${PORT}`);
 });
