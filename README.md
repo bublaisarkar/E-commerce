@@ -4,7 +4,7 @@ Status Live
 
 Live URL :https://rabbit-gray.vercel.app/
 
-<img width="1326" height="825" alt="image" src="https://github.com/user-attachments/assets/3d8468bc-3e3f-4b9b-9f5a-15c8526a2808" />
+<img width="1365" height="639" alt="image" src="https://github.com/user-attachments/assets/3d8468bc-3e3f-4b9b-9f5a-15c8526a2808" />
 
 
 📝 Description
