@@ -13,7 +13,7 @@ const adminRoutes = require("./routes/adminRoutes");
 const productAdminRoutes = require("./routes/productAdminRoutes");
 const adminOrderRoutes = require("./routes/adminOrderRoutes");
 
-// 1. Load environment variables first
+// 1. Load environment variables first 
 dotenv.config();
 
 const app = express();
